@@ -34,5 +34,5 @@ https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sha
 ## Authors
 @main_author: Ahmed Alkharusi 
 
-Esah Bannister has participated in writing the code. 
+Esah Bannister has participated in writing the code and the report. 
 esah.bannister@student.manchester.ac.uk
