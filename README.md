@@ -1,13 +1,13 @@
 # The Schrodinger Equation Solver app
 This app solves the 2D Schrodinger Equation numerically for arbitrary potential using the finite difference method. Just paste the photo of the infinite potential well.
 
-##For the detailed report see
+## For the detailed report see
 https://www.researchgate.net/publication/340984532_Scars_in_the_wavefunction_A_study_of_different_potential_wells_using_the_finite_difference_method
 
-##A YouTube tutorial on how to use the app
+## A YouTube tutorial on how to use the app
 https://youtu.be/48cgQMdw94g
 
-##How to use the app (summary):
+## How to use the app (summary):
 1. Paste the photo of the potential well in the same app file. The photo should be in black and white only. See the example provided.
 The resolution of the results depends on the resolution of the inputted photo. Start with 30 by 30 pixels photo to see how long the app will take
 2. Paste the image name in imagename.txt 
@@ -16,5 +16,5 @@ The resolution of the results depends on the resolution of the inputted photo. S
 e_vec = np.load('....npy')
 e_values = np.load('....npy')
 
-##For more examples, see
+## For more examples, see
 https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sharing
