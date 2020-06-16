@@ -17,6 +17,6 @@ e_vec = np.load('....npy')
 e_values = np.load('....npy')
 
 ## Examples
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/image.pdf?raw=true)
+![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/image.png?raw=true)
 ## For more examples, see
 https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sharing
