@@ -26,7 +26,7 @@ e_values = np.load('....npy')
 ### The diamond potential
 ![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example3.PNG?raw=true)
 
-Also, the app can be used to study the scars in the wavefunction. These are some examples:
+### Also, the app can be used to study the scars in the wavefunction. This is an example,
 ![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example4.PNG?raw=true)
 
 ## For more examples, see
