@@ -17,7 +17,14 @@ e_vec = np.load('....npy')
 e_values = np.load('....npy')
 
 ## Examples
+### The heart potential
 ![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example.PNG?raw=true)
+### The stadium billiard 
+### Sinai's billiard
+### The diamond potential
+
+Also, the app can be used to study the scars in the wavefunction. These are some examples:
+
 
 ## For more examples, see
 https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sharing
