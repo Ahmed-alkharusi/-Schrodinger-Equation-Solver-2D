@@ -20,11 +20,14 @@ e_values = np.load('....npy')
 ### The heart potential
 ![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example.PNG?raw=true)
 ### The stadium billiard 
+![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example5.PNG?raw=true)
 ### Sinai's billiard
+![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example1.PNG?raw=true)
 ### The diamond potential
+![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example3.PNG?raw=true)
 
 Also, the app can be used to study the scars in the wavefunction. These are some examples:
-
+![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example4.PNG?raw=true)
 
 ## For more examples, see
 https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sharing
