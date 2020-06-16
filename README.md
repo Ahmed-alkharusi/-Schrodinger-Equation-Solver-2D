@@ -16,5 +16,7 @@ The resolution of the results depends on the resolution of the inputted photo. S
 e_vec = np.load('....npy')
 e_values = np.load('....npy')
 
+## Examples
+![alt text]
 ## For more examples, see
 https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sharing
