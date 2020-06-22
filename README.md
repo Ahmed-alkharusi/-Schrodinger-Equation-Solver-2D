@@ -18,16 +18,16 @@ e_values = np.load('....npy')
 
 ## Examples
 ### The heart potential
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/Ahmed-alkharusi/-Schrodinger-Equation-Solver-2D/master/Examples/example.PNG)
 ### The stadium billiard 
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example5.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/Ahmed-alkharusi/-Schrodinger-Equation-Solver-2D/master/Examples/example5.PNG)
 ### Sinai's billiard
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example1.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/Ahmed-alkharusi/-Schrodinger-Equation-Solver-2D/master/Examples/example1.PNG)
 ### The diamond potential
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example3.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/Ahmed-alkharusi/-Schrodinger-Equation-Solver-2D/master/Examples/example3.PNG)
 
 ### Also, the app can be used to study the scars in the wavefunction. This is an example,
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example4.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/Ahmed-alkharusi/-Schrodinger-Equation-Solver-2D/master/Examples/example4.PNG)
 
 ## For more examples, see
 https://drive.google.com/drive/folders/1oS9dF2Q94D5c0zO84e2bC_oAiCWi8uA8?usp=sharing
