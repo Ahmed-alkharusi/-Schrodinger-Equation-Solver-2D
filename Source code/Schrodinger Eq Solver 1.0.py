@@ -154,16 +154,16 @@ for i in range(int(input_data[1])):
        cbar.ax.tick_params(labelsize=5,pad=0.1)
        
        if i == 0:
-           axi.set_title('The ground state',fontsize=12)
+           axi.set_title('The ground excited state',fontsize=12)
            
-       if i == 1:
-           axi.set_title('The 1$^{st}$ state',fontsize=12)
+       elif i == 1:
+           axi.set_title('The 1$^{st}$ excited state',fontsize=12)
            
-       if i == 2:
-           axi.set_title('The 2$^{nd}$ state',fontsize=12)
+       elif i == 2:
+           axi.set_title('The 2$^{nd}$ excited state',fontsize=12)
            
-       if i == 3:
-           axi.set_title('The 3$^{rd}$ state',fontsize=12)
+       elif i == 3:
+           axi.set_title('The 3$^{rd}$ excited state',fontsize=12)
            
        else:
            axi.set_title(str(i)+'$^{th}$ excited state',fontsize=12)   

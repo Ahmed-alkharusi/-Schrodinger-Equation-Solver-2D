@@ -1,0 +1,110 @@
+<MainWindow>:
+    name:"main"
+    energy_min :energy_min
+    energy_max :energy_max
+    picture_name :picture_name
+
+    FloatLayout:
+        Label:
+            font_size:25
+            pos_hint:{"x": 0.01, "top":0.8}
+            size_hint:0.3,0.2
+            text: "Lowest energy state"
+
+        TextInput:
+            id: energy_min
+            font_size: (root.width**2 + root.height**2) / 13**4
+            multiline: False
+            pos_hint: {"x": 0.01 , "top":0.5}
+            size_hint: 0.3,0.2
+
+        Label:
+            font_size:25
+            pos_hint:{"x": 0.32, "top":0.8}
+            size_hint:0.3,0.2
+            text: "Highest energy state"
+
+        TextInput:
+            id: energy_max
+            font_size: (root.width**2 + root.height**2) / 13**4
+            multiline: False
+            pos_hint: {"x": 0.32, "top":0.5}
+            size_hint: 0.3,0.2
+
+        Label:
+            font_size:25
+            pos_hint:{"x": 0.65, "top":0.8}
+            size_hint:0.3,0.2
+            text: "The name of \nthe potential's photo"
+
+        TextInput:
+            id: picture_name
+            font_size: (root.width**2 + root.height**2) / 13**4
+            multiline: False
+            pos_hint: {"x": 0.65, "top":0.5}
+            size_hint: 0.3,0.2
+
+        Button:
+            font_size:25
+            pos_hint:{"x":0.65,"y":0.1}
+            size_hint:0.3,0.15
+            text:"Run"
+            on_release:
+
+                root.runButton()
+                root.manager.transition.direction = "down"
+        Button:
+            font_size:20
+            pos_hint:{"x":0.01,"y":0.89}
+            size_hint:0.15,0.05
+            text:"How to use"
+            on_release:
+                root.manager.transition.direction = "up"
+                root.how()
+        Button:
+            font_size:20
+            pos_hint:{"x":0.34,"y":0.89}
+            size_hint:0.1,0.05
+            text:"About"
+            on_release:
+                root.manager.transition.direction = "right"
+                root.about()
+
+<HowWindow>:
+    name: "how"
+
+    FloatLayout:
+        Label:
+            font_size:23
+            pos_hint:{"x": 0.3, "top":0.7}
+            size_hint:0.15,0.05
+            markup: True
+            text: 'Need help? check out our Github repository:\n \n[ref=some]https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver[/ref]'
+            on_ref_press:
+                import webbrowser
+                webbrowser.open('https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver')
+
+        Button:
+            pos_hint:{"x":0.01,"y":0.89}
+            size_hint:0.15,0.05
+            text:"Main window"
+            on_release:
+                root.manager.transition.direction = "down"
+                root.goMain()
+
+
+<AboutWindow>:
+    name: "about"
+    FloatLayout:
+    Label:
+        font_size:23
+        pos_hint:{"x": 0.3, "top":0.7}
+        size_hint:0.15,0.05
+        text: '@main_author: Ahmed Alkharusi \n \nEsah Bannister has participated in writing the code.'
+    Button:
+        pos_hint:{"x":0.01,"y":0.89}
+        size_hint:0.15,0.05
+        text:"Main window"
+        on_release:
+            root.manager.transition.direction = "left"
+            root.goMain()
