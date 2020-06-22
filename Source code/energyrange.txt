@@ -1,0 +1,2 @@
+%energy range(from,to,use 1 to save results as txt and 0 otherwise)
+0,10,1
