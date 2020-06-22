@@ -18,7 +18,7 @@ e_values = np.load('....npy')
 
 ## Examples
 ### The heart potential
-![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example.PNG?raw=true)
+![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/tree/master/Examplesexample.PNG?raw=true)
 ### The stadium billiard 
 ![alt text](https://github.com/Ahmed-alkharusi/Schrodinger-Equation-Solver/blob/master/example5.PNG?raw=true)
 ### Sinai's billiard
